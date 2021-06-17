@@ -41,7 +41,7 @@ fang:
     role: present
     affiliation: UofT Physics
     #image:
-    github:
+    github: quantumfx
     bio: Physics Ph.D.
     interests:
 
@@ -96,7 +96,7 @@ julie:
     affiliation: UofT Physics
     #image:
     github: jui434
-    bio: Physics Ph.D.
+    bio: Physics Undergraduate
     interests:
 
 chris:
