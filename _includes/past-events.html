@@ -22,7 +22,7 @@
                 {% if postyear < nowyear or postday <= nowday and postyear <= nowyear %}
                   {% assign isEvent = 1 %}
                   <li>
-                    {% if post.folder != None %}
+                    {% if post.folder %}
                         <a class='eventTitle' href="{{ site.github }}/lessons/{{ post.folder }}">{{ post.title }} </a>
                     {% else %}
                         <p style="display:inline" class='eventTitle'>{{ post.title }} </p>
