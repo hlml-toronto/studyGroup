@@ -1,18 +1,25 @@
 # HLML
 
-Welcome to our website! It was made by slightly modifying a fork of "Mozilla Study Group" (see below) and many elements were inspired by the Uoft Coders fork of the same repo. 
+Welcome to our website! 
+It was made by slightly modifying a fork of "Mozilla Study Group" (see below) and many elements were inspired by the Uoft Coders fork of the same repo. 
 
-Normally contributing requires making pull requests to the repo. However, I've chnaged a couple of things since our members don't generally seem to follow things on github as much as would be required. Accordingly, below are the contribution mechanisms for different types of elements to the website.
+Normally contributing requires making pull requests to the repo. 
+However, I've changed a couple of things since our members don't generally seem to follow notifications on github as much as would be required. 
+Accordingly, below are the contribution mechanisms for different types of elements to the website.
 
 ## Contributing
 
 ### Scheduled Events
 
-The
+Scheduled events (invited speakers, internal talks, code days) can be added as 
 
 ### Projects
 
-
+Adding a project is as simple as creating a markdown file in the folder /\_projects and filling it with the correct information.
+An example may be found in /\_projects/\_project-template.md, feel free to copy it and change it.
+The header is a YAML frontmatter, it gets parsed by the website in different areas to generate the project card; filling in the information should be sufficient for having it appear on the website.
+Below the YAML frontmatter is the content that will appear on the website.
+It can be the copy/paste fron the README.md of the github repo, but I suggest putting a bit of effort into the content as it creates a nice webpage of it.
 
 ### Lessons
 
@@ -20,7 +27,7 @@ This still needs to be figured out, stay tuned.
 
 ### Adding/editing members
 
-Member information can be found in \_data/members.yml .
+Member information can be found in /\_data/members.yml .
 
 ### Any other changes to the website
 
