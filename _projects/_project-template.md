@@ -15,17 +15,14 @@ people: # add peope that are involved in this project
   - wolverine
 
 layout: page # do not change this
+#link:
 no-link: true # if you don't want it's own webpage
 last-updated: 1989-10-9
 # do NOT add 0 (such as 06 for June). Will break everything lol
-
-# take out the underscore in the name. The filename should be XXXX-YY-ZZ-title.md . Include zeros here.
+# take out the underscore in the name.
 ---
 
 This is the text that will appear in the webpage, in Markdown.
-
-Links to github can be added like
-[this](https://github.com/hlml-toronto/).
 
 To create a project, just create a markdown file in the `_projects` folder. Here are the things you can put in the YAML frontmatter:
 
@@ -39,3 +36,9 @@ To create a project, just create a markdown file in the `_projects` folder. Here
 - `status: inactive` Set this to `inactive` if don't want the project to appear on the front page. Just ignore it otherwise.
 - `link:` Set this to an external URL if this project has a page somewhere else on the web. If you don't have a `link:`, then the content of this markdown file (below the YAML frontmatter) will be this project's page.
 - `no-link: true` Set this if you just don't want a project page for your project.
+
+Links to github can be added like
+[this](https://github.com/hlml-toronto/).
+
+Adding images is as simple as using an html command for images, such as this: <img src="/img/projects/undiagnosed-1/methodologies.PNG" alt="idp" width="400px" align="right" style="padding:5px;">
+Try to keep a nice hierarchy of images in our img folder.
