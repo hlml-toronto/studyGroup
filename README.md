@@ -11,7 +11,7 @@ Accordingly, below are the contribution mechanisms for different types of elemen
 
 ### Scheduled Events
 
-Scheduled events (invited speakers, internal talks, code days) can be added as TBD!
+Scheduled events (invited speakers, internal talks, code days) can be added as ....
 
 ### Projects
 
