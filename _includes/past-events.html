@@ -27,7 +27,7 @@
                     {% else %}
                         <p style="display:inline" class='eventTitle'>{{ post.title }} </p>
                     {% endif %}
-                    <div class='eventSub'><strong>{{ post.date | date: "%-d %B %Y"}}, {{ post.startTime | date:"%I:%M %p" }}, {{ post.location }}</strong><br>{{ post.text }}</div>
+                    <div class='eventSub'><strong>{{ post.date | date: "%-d %B %Y"}}, {{ post.startTime | date:"%I:%M %p" }}, {{ post.location }}</strong><br>{{ post.description }}</div>
                   </li>
                 {% endif %}
               {% endfor %}

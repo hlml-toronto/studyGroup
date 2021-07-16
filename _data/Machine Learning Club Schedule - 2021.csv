@@ -1,0 +1,52 @@
+who,title,invitedSpeaker,description,location,date,startTime,endTime,onlinemeeting,link,extra
+Duncan,Weekly meeting ,FALSE,"A review of optimizers, regularization, and other technical nitty-gritty of implementing NNs",Discord,2021-01-15,11:00,12:30,--,--,--
+"Matt, Jeremy",Weekly meeting ,FALSE,Review NLP: Transformers,Discord,2021-01-22,11:00,12:30,--,--,--
+Tiantian,Weekly meeting ,FALSE,Review Code for Tranformer,Discord,2021-01-29,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,PyTorch or tensorflow: MNIST classification exercise hands-on ,Discord,2021-02-05,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,NN training coding session Q&A,Discord,2021-02-12,11:00,12:30,--,--,--
+Jeremy,Weekly meeting ,FALSE,SVM and extensions,Discord,2021-02-19,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,Coding session,Discord,2021-02-26,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,GNN talk: https://youtu.be/uF53xsT7mjc?t=75,Discord,2021-03-05,11:00,12:30,--,https://youtu.be/uF53xsT7mjc?t=75,--
+--,Weekly meeting ,FALSE,GNN talk part 2,Discord,2021-03-12,11:00,12:30,--,--,--
+--,No meeting: APS week ,FALSE,N/A,Discord,2021-03-19,11:00,12:30,--,--,--
+Nava,Weekly meeting ,FALSE,PCA presentation,Discord,2021-03-26,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,Coding session,Discord,2021-04-02,11:00,12:30,--,--,--
+Matt,Weekly meeting ,FALSE,"Generative modelling (GAN, VAE, RBM, transformers)",Discord,2021-04-09,11:00,12:30,--,--,--
+Duncan,Weekly meeting ,FALSE,DALL-E (all read blog at least) https://openai.com/blog/dall-e/,Discord,2021-04-16,11:00,12:30,--,https://openai.com/blog/dall-e/,--
+Fang,Weekly meeting ,FALSE,Google collab walkthrough: ,Discord,2021-04-23,11:00,12:30,--,--,--
+"Maddie, Jeremy",Weekly meeting ,FALSE,Machine learning model ethics,Discord,2021-04-30,11:00,12:30,--,https://docs.google.com/presentation/d/1hIpq7lWJlmwsXf5jzSWY1p7NFNk7TCZYfHUTRGL-QAk/edit?usp=sharing,--
+"Duncan, Fang",Weekly meeting ,FALSE,Advances in chess engines & discuss funding (Jeremy),Discord,2021-05-07,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,Coding session,Discord,2021-05-14,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,Coding session,Discord,2021-05-21,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,Lenka Zdeborova talk,Discord,2021-05-28,11:00,12:30,--,https://www.youtube.com/watch?v=2P_iB0ldSS8,--
+--,Weekly meeting ,FALSE,Admin: email template + website/github cleanup. Journal club: 1) Read paper + figures 2) Try to reproduce main result i.e. Fig. 3,Discord,2021-06-04,11:00,12:30,--,https://www.pnas.org/content/pnas/116/32/15849.full.pdf,First lunch voucher meeting ($20)
+Yanay Tevet,Data Science pipelines for people analytics,TRUE,"Cofounder and CTO of Manto.ai, Yanay Tevet, discusses how people analytics can be used to solve the problem of employee attrition",Zoom,2021-06-11,11:00,12:30,https://utoronto.zoom.us/j/86042555898,https://youtu.be/yd1rK0R_Ees,--
+Conor Lazarou,Data Science in the SaaS Industry,TRUE,"Conor Lazarou, data scientist at 7shifts and cofounder of flatland.ai, discusses his work.",Zoom,2021-06-18,11:00,12:30,https://utoronto.zoom.us/j/86042555898,--,--
+Sabya Dasgupta,Exploring career options in Data landscape,TRUE,"Sabya Dasgupta, previously a post-doc in Physics at UofT and now senior manager at Loblaw Companies, discusses his thoughts on career paths in the field.",Zoom,2021-06-25,11:00,12:30,https://utoronto.zoom.us/j/86042555898,--,--
+Eldad Kepten,"Microbiology, Public Transport, Healthcare.. A random walk across industries",TRUE,"Eldad Kepten, head of data science at Clalit Research Institute, discusses what he learned from his brownian motion through various industries.",Zoom,2021-06-28,12:00,13:30,https://utoronto.zoom.us/j/86042555898,--,--
+--,No meeting: Canada day long weekend,FALSE,N/A,Discord,2021-07-02,11:00,12:30,--,--,--
+"Tiantian, Matt, Jeremy, Nava",Weekly meeting ,FALSE,Coding session,Discord,2021-07-09,11:00,12:30,--,--,--
+"Jeremy, Matt, Nava",Weekly meeting ,FALSE,Project update week ,Discord,2021-07-16,11:00,12:30,--,--,Second lunch voucher meeting ($20)
+Sabya Dasgupta,Exploring career options in Data landscape (Part 2),TRUE,"Sabya Dasgupta, previously a post-doc in Physics at UofT and now senior manager at Loblaw Companies, discusses his thoughts on career paths in the field.",Zoom,2021-07-23,11:00,12:30,--,--,--
+"Jeremy, Matt, Nava",Weekly meeting ,FALSE,UMAP + t-SNE or Diffusion Map,Discord,2021-07-30,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-08-06,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,possibly talk by Chad one week (Chris followup),Discord,2021-08-13,11:00,12:30,--,--,Third lunch voucher meeting ($20)
+--,Weekly meeting ,FALSE,--,Discord,2021-08-20,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-08-27,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-09-03,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-09-10,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-09-17,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-09-24,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-10-01,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-10-08,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-10-15,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-10-22,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-10-29,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-11-05,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-11-12,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-11-19,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-11-26,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-12-03,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-12-10,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-12-17,11:00,12:30,--,--,--
+--,Weekly meeting ,FALSE,--,Discord,2021-12-24,11:00,12:30,--,--,--

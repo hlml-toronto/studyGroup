@@ -1,0 +1,17 @@
+who,title,invitedSpeaker,description,location,date,startTime,endTime,onlinemeeting,link,extra,lessonFolder
+--,Weekly meeting,FALSE,General planning,McLennan,2018-09-07,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,"Fitting vs Predicting, Keras for NNs, supervised vs unsupervised learning. Mehta - A high-bias , low-variance introduction to Machine Learning for physicists pages 1-6",McLennan,2018-09-14,11:00,12:30,--,--,--,--
+Eugene,Weekly meeting,FALSE,"Overview of clustering presented, pitching project proposals. Mehta - A high-bias , low-variance introduction to Machine Learning for physicists chapters 12 and 13",McLennan,2018-09-21,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,Hands-on tutorial of clustering algorithms. Make sure you have Keras installed. See instructions at: https://uoftbiophysics.github.io/pages/machinelearning,McLennan,2018-09-28,11:00,12:30,--,--,--,--
+Eugene,Weekly meeting,FALSE,"Finish Jupyter nb, PCA presentation. Make sure you can run Eugene's notebook; Read on your preferred algorithm",McLennan,2018-10-05,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,MDS presentation: See Jupyter Notebook,McLennan,2018-10-12,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,Project presentations and discussion,McLennan,2018-10-19,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,"ICA presentation, discussion of projects / planning. See Jupyter Notebook",McLennan,2018-10-26,11:00,12:30,--,--,--,--
+Sabya,Weekly meeting,FALSE,tSNE Discussion (van der Maaten and Hinton - 2008 original tSNE paper),McLennan,2018-11-02,11:00,12:30,--,--,--,--
+"Chris, Jeremy",Weekly meeting,FALSE,kMeans. See Jupyter Notebook,McLennan,2018-11-09,11:00,12:30,--,--,--,--
+Duncan,Weekly meeting,FALSE,"Logistic regression, regularization. Scope: pg43-132. Section 4.4 (Logistic regression) from The Elements of Statistical Learning by Hastie, Tibshirani, and Friedman",McLennan,2018-11-16,11:00,12:30,--,--,--,--
+"Sam, Andrei",Weekly meeting,FALSE,"Gaussian Mixture Models + Isomap. Mapping a manifold of perceptual observations (Tenenbaum, 1998) ",McLennan,2018-11-23,11:00,12:30,--,--,--,--
+"Chris, Jeremy, Liam",Weekly meeting,FALSE,"Locally linear embedding + DBSCAN. Nonlinear Dimensionality Reduction by Locally Linear Embedding (Roweis, Saul, 2000)",McLennan,2018-11-30,11:00,12:30,--,--,--,--
+Matt,Weekly meeting,FALSE,"Spectral Embedding. On Spectral Clustering: Analysis and an algorithm (Ng et al, 2002)",McLennan,2018-12-07,11:00,12:30,--,--,--,--
+"Chris, Jeremy",Weekly meeting,FALSE,"Laplacian eigenmap. Laplacian Eigenmaps for Dimensionality Reduction and Data Representation (Belkin, Niyogi, 2003)",McLennan,2018-12-14,11:00,12:30,--,--,--,--
+"Matt, MattheW, Sabya",Weekly meeting,FALSE,"Diffusion map and/or Umap. Diffusion maps (Coifman, Lafon, 2006), umap paper",McLennan,2018-12-21,11:00,12:30,--,--,--,--

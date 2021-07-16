@@ -1,25 +1,68 @@
 # HLML
 
-Welcome to our website! 
-It was made by slightly modifying a fork of "Mozilla Study Group" (see below) and many elements were inspired by the Uoft Coders fork of the same repo. 
+Welcome to our website!
+It is hosted on Github Pages and uses Liquid and Jekyll to display the webpage.
+It was made by slightly modifying a fork of "Mozilla Study Group" (see below) and many elements were inspired by the Uoft Coders fork of the same repo.
 
-Normally contributing requires making pull requests to the repo. 
-However, I've changed a couple of things since our members don't generally seem to follow notifications on github as much as would be required. 
+Normally contributing requires 'Watching' the repo, forking and push request.
+Since we maintain our own internal schedule, I (Jeremy) thought it would be best if we stuck to a simple push/pull technique for updating any elements of the website.
 Accordingly, below are the contribution mechanisms for different types of elements to the website.
 
 ## Contributing
 
+If you're unfamiliar with Github for any of the following steps, please feel to contact anyone in the group for help.
+First of all, you need to clone the repository to your local device.
+To contribute properly, you'll need permission to push any changes you make to the remote repo.
+To get the necessary permission, join the [hlml-toronto GitHub group](https://github.com/hlml-toronto).
+You can contact any one of the owners of the group to join.
+Once you have push access to the repo, you can start changing the code for the website and modifying whatever you please!
+Remember to always pull first, in case someone else has made considerable changes to the repo before you manage to push any new code.
+ANy changes you make will take some time to appear on the website.
+
+Although not necessary, you can locally view any changes you've made to the website before pushing it to the remote github repo and having it go live for the world to see.
+To do this, you'll need to have the correct packages on your local machine (talk to Jeremy for help).
+For Linux users, here is a link that will help you get the correct packages: [jekyll install link](https://jekyllrb.com/docs/installation/ubuntu/)
+
+Once this is done, you can easily start up a local server by navigating to the main folder of the repo and typing the following command in terminal:
+
+'''shell
+jekyll serve
+'''
+
+A bunch of text should appear in the terminal and the server should be up and running.
+Find the server address displayed on the temrinal and either Ctrl-click it or type the address into a web browser to view the website.
+To close the server, either close your terminal running the program or ctrl-c.
+
+Again, this is not necessary to having the website work but it helps in understanding what your changes do to the website.
+
 ### Scheduled Events
 
-Scheduled events (invited speakers, internal talks, code days) can be added as TBD!
+To update the schedule you need to be able to run python scripts on your device and have push permissions to the repo.
+We currently keep a schedule of our events on [this Google Sheet](https://docs.google.com/spreadsheets/d/1g5YJG3eM5Nce51zA7Vuy-tRkN3CzBXFOp02jR28Tjas/edit?usp=sharing).
+To update the schedule on the website, first download the correct year from the Google Sheet as a .csv file and move it the the /\_data/ folder in this repo.
+Then, move to the /scipts/ folder open the file /scipts/update_schedule.py in whichever IDE or text editor you prefer working in.
+In line 5, you'll find a line you may need to change every year.
+
+'''python
+year = '2021'
+'''
+
+Note that if the name of our Google Sheets has changed in any way, you'll need to change the line 11 where the name of the file is (otherwise, no need to change it)
+
+'''python
+file = "Machine Learning Club Schedule - "
+'''
+
+Now, running the python script should populate the /\_posts/ folder, which is where all the event files are listed.
+Commit all changes to your local repo (leave a comment if you'd like) and push to the remote repo.
 
 ### Projects
 
 Adding a project is as simple as creating a markdown file in the folder /\_projects and filling it with the correct information.
 An example may be found in /\_projects/\_project-template.md, feel free to copy it and change it.
-The header is a YAML frontmatter, it gets parsed by the website in different areas to generate the project card; filling in the information should be sufficient for having it appear on the website.
+The header is a YAML frontmatter, it gets parsed by the website in different areas to generate the project cards; filling in the information should be sufficient for having it appear on the website.
 Below the YAML frontmatter is the content that will appear on the website.
-It can be the copy/paste fron the README.md of the github repo, but I suggest putting a bit of effort into the content as it creates a nice webpage of it.
+It can be the copy/paste from the README.md of the corresponding Github repository, but I suggest putting a bit of effort into the content as it creates a nice webpage of it.
 
 ### Lessons
 
@@ -27,11 +70,18 @@ This still needs to be figured out, stay tuned.
 
 ### Adding/editing members
 
-Member information can be found in /\_data/members.yml .
+Member information can be found in /\_data/members.yml.
+The data is in YAML format, which is pretty straightforward.
+If you want to add any new keys for functionalities, be my guest!
 
 ### Any other changes to the website
 
-This is meant to be a collaborative group and, as such, the building of the website is similarly a cooperative process. If there are elements you want to add, play around with and change... be my guest! Feel free to contact Jeremy for any help.
+Once you've made any changes and are happy with how it turned out, use git to commit your changes and push the code back to the remote repo.
+The changes should take a couple of minutes to appear live.
+
+This is meant to be a collaborative group and, as such, the building of the website is similarly a cooperative process.
+If there are elements you want to add, play around with and change... be my guest!
+Feel free to contact me (Jeremy) for any help you need or if you have ideas on what can be changed.
 
 ## Mozilla Study Groups
 

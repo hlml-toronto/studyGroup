@@ -1,0 +1,19 @@
+who,title,invitedSpeaker,description,location,date,startTime,endTime,onlinemeeting,link,extra,lessonFolder
+--,Weekly meeting,FALSE,General planning meeting,McLennan,2019-01-11,11:00,endTime,onlinemeeting,link,extra,lessonFolder
+--,Weekly meeting,FALSE,"Theory of Neural Nets: Graphs, math",McLennan,2019-01-18,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,Theory of Neural Nets: Training (backprop) and implementation,McLennan,2019-01-25,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,Packages and a simple neural net; pytorch/tensorflow/keras,McLennan,2019-02-01,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,Feed Forward: Convolutional neural networks,McLennan,2019-02-08,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,Feed Forward: Transfer learning,McLennan,2019-02-15,11:00,12:30,--,--,--,--
+Duncan,Weekly meeting,FALSE,Tree based learning,McLennan,2019-03-08,11:00,12:30,--,--,--,--
+"Matt, Duncan",Weekly meeting,FALSE,Autoencoders / VAE theory,McLennan,2019-03-22,11:00,12:30,--,--,--,--
+Duncan,Weekly meeting,FALSE,VAE example code,McLennan,2019-03-29,11:00,12:30,--,--,--,--
+Duncan,Weekly meeting,FALSE,GANs,McLennan,2019-04-05,11:00,12:30,--,--,--,--
+Sam,Weekly meeting,FALSE,Mutation-Only Genetic Algorithm,McLennan,2019-04-12,11:00,12:30,--,--,--,--
+Matt,Weekly meeting,FALSE,RNN specific: Hopfield and analogs ,McLennan,2019-05-10,11:00,12:30,--,--,--,--
+"Eugene, Liam",Weekly meeting,FALSE,AutoPump recap and LSTM training,McLennan,2019-09-20,11:00,12:30,--,--,--,--
+"Jeremy, Matt",Weekly meeting,FALSE,Introductory talk for the newcomers. Discussion of interests. Orientation,McLennan,2019-09-27,11:00,12:30,--,--,--,--
+Eugene,Weekly meeting,FALSE,Neural network: mathematical background and implementation,McLennan,2019-10-04,11:00,12:30,--,--,--,--
+Jeremy,Weekly meeting,FALSE,RBM Overview,McLennan,2019-10-25,11:00,12:30,--,--,--,--
+"Chris, Peihang",Weekly meeting,FALSE,Project Proposals,McLennan,2019-11-15,11:00,12:30,--,--,--,--
+--,Weekly meeting,FALSE,Kaggle and Image detection,McLennan,2019-11-22,11:00,12:30,--,--,--,--
