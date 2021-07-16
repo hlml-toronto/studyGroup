@@ -25,9 +25,9 @@ For Linux users, here is a link that will help you get the correct packages: [je
 
 Once this is done, you can easily start up a local server by navigating to the main folder of the repo and typing the following command in terminal:
 
-'''shell
+```shell
 jekyll serve
-'''
+```
 
 A bunch of text should appear in the terminal and the server should be up and running.
 Find the server address displayed on the temrinal and either Ctrl-click it or type the address into a web browser to view the website.
@@ -43,15 +43,15 @@ To update the schedule on the website, first download the correct year from the 
 Then, move to the /scipts/ folder open the file /scipts/update_schedule.py in whichever IDE or text editor you prefer working in.
 In line 5, you'll find a line you may need to change every year.
 
-'''python
+```python
 year = '2021'
-'''
+```
 
 Note that if the name of our Google Sheets has changed in any way, you'll need to change the line 11 where the name of the file is (otherwise, no need to change it)
 
-'''python
+```python
 file = "Machine Learning Club Schedule - "
-'''
+```
 
 Now, running the python script should populate the /\_posts/ folder, which is where all the event files are listed.
 Commit all changes to your local repo (leave a comment if you'd like) and push to the remote repo.
