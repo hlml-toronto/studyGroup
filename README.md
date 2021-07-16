@@ -21,7 +21,7 @@ ANy changes you make will take some time to appear on the website.
 
 Although not necessary, you can locally view any changes you've made to the website before pushing it to the remote github repo and having it go live for the world to see.
 To do this, you'll need to have the correct packages on your local machine (talk to Jeremy for help).
-For Linux users, here is a link that will help you get the correct packages: [jekyll install link](https://jekyllrb.com/docs/installation/ubuntu/)
+For Linux users, here is a link that will help you get the correct packages: [jekyll install link](https://jekyllrb.com/docs/installation/ubuntu/).
 
 Once this is done, you can easily start up a local server by navigating to the main folder of the repo and typing the following command in terminal:
 
