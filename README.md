@@ -2,9 +2,9 @@
 
 Welcome to our website!
 It is hosted on Github Pages and uses Liquid and Jekyll to display the webpage.
-It was made by slightly modifying a fork of "Mozilla Study Group" (see below) and many elements were inspired by the Uoft Coders fork of the same repo.
+It was made by slightly modifying a fork of "Mozilla Study Group" (see below) and many elements were inspired by the Uoft Coders fork of the same repository.
 
-Normally contributing requires 'Watching' the repo, forking and push request.
+Normally contributing requires 'Watching' the repository, forking and push request.
 Since we maintain our own internal schedule, I (Jeremy) thought it would be best if we stuck to a simple push/pull technique for updating any elements of the website.
 Accordingly, below are the contribution mechanisms for different types of elements to the website.
 
@@ -12,35 +12,35 @@ Accordingly, below are the contribution mechanisms for different types of elemen
 
 If you're unfamiliar with Github for any of the following steps, please feel to contact anyone in the group for help.
 First of all, you need to clone the repository to your local device.
-To contribute properly, you'll need permission to push any changes you make to the remote repo.
+To contribute properly, you'll need permission to push any changes you make to the remote repository.
 To get the necessary permission, join the [hlml-toronto GitHub group](https://github.com/hlml-toronto).
 You can contact any one of the owners of the group to join.
-Once you have push access to the repo, you can start changing the code for the website and modifying whatever you please!
-Remember to always pull first, in case someone else has made considerable changes to the repo before you manage to push any new code.
-ANy changes you make will take some time to appear on the website.
+Once you have push access to the repository, you can start changing the code for the website and modifying whatever you please!
+Remember to always pull first, in case someone else has made considerable changes to the repository before you manage to push any new code.
+Any changes you make will take some time to appear on the website.
 
-Although not necessary, you can locally view any changes you've made to the website before pushing it to the remote github repo and having it go live for the world to see.
+Although not necessary, you can locally view any changes you've made to the website before pushing it to the remote Github repository and having it go live for the world to see.
 To do this, you'll need to have the correct packages on your local machine (talk to Jeremy for help).
 For Linux users, here is a link that will help you get the correct packages: [jekyll install link](https://jekyllrb.com/docs/installation/ubuntu/)
 
-Once this is done, you can easily start up a local server by navigating to the main folder of the repo and typing the following command in terminal:
+Once this is done, you can easily start up a local server by navigating to the main folder of the repository and typing the following command in terminal:
 
 ```shell
 jekyll serve
 ```
 
 A bunch of text should appear in the terminal and the server should be up and running.
-Find the server address displayed on the temrinal and either Ctrl-click it or type the address into a web browser to view the website.
+Find the server address displayed on the terminal and either ctrl-click it or type the address into a web browser to view the website.
 To close the server, either close your terminal running the program or ctrl-c.
 
 Again, this is not necessary to having the website work but it helps in understanding what your changes do to the website.
 
 ### Scheduled Events
 
-To update the schedule you need to be able to run python scripts on your device and have push permissions to the repo.
+To update the schedule you need to be able to run python scripts on your device and have push permissions to the repository.
 We currently keep a schedule of our events on [this Google Sheet](https://docs.google.com/spreadsheets/d/1g5YJG3eM5Nce51zA7Vuy-tRkN3CzBXFOp02jR28Tjas/edit?usp=sharing).
 To update the schedule on the website, first download the correct year from the Google Sheet as a .csv file and move it the the /\_data/ folder in this repo.
-Then, move to the /scipts/ folder open the file /scipts/update_schedule.py in whichever IDE or text editor you prefer working in.
+Then, move to the /scripts/ folder open the file /scripts/update_schedule.py in whichever IDE or text editor you prefer working in.
 In line 5, you'll find a line you may need to change every year.
 
 ```python
@@ -54,7 +54,7 @@ file = "Machine Learning Club Schedule - "
 ```
 
 Now, running the python script should populate the /\_posts/ folder, which is where all the event files are listed.
-Commit all changes to your local repo (leave a comment if you'd like) and push to the remote repo.
+Commit all changes to your local repository (leave a comment if you'd like) and push to the remote repository.
 
 ### Projects
 
@@ -76,7 +76,7 @@ If you want to add any new keys for functionalities, be my guest!
 
 ### Any other changes to the website
 
-Once you've made any changes and are happy with how it turned out, use git to commit your changes and push the code back to the remote repo.
+Once you've made any changes and are happy with how it turned out, use git to commit your changes and push the code back to the remote repository.
 The changes should take a couple of minutes to appear live.
 
 This is meant to be a collaborative group and, as such, the building of the website is similarly a cooperative process.
