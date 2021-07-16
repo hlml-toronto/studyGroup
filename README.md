@@ -37,6 +37,7 @@ Again, this is not necessary to having the website work but it helps in understa
 
 ### Scheduled Events
 
+<<<<<<< HEAD
 To update the schedule you need to be able to run python scripts on your device and have push permissions to the repo.
 We currently keep a schedule of our events on [this Google Sheet](https://docs.google.com/spreadsheets/d/1g5YJG3eM5Nce51zA7Vuy-tRkN3CzBXFOp02jR28Tjas/edit?usp=sharing).
 To update the schedule on the website, first download the correct year from the Google Sheet as a .csv file and move it the the /\_data/ folder in this repo.
@@ -55,6 +56,9 @@ file = "Machine Learning Club Schedule - "
 
 Now, running the python script should populate the /\_posts/ folder, which is where all the event files are listed.
 Commit all changes to your local repo (leave a comment if you'd like) and push to the remote repo.
+=======
+Scheduled events (invited speakers, internal talks, code days) can be added as ....
+>>>>>>> 97f561602a24fe7477434c633e159599064d2920
 
 ### Projects
 
