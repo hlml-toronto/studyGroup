@@ -16,7 +16,7 @@ visible: True
 
 ### The problem: ImageNet large-scale visual recognition challenge
 
-&gt;derp> 1.2 million high-resimages of different sizes to train with
+&gt; 1.2 million high-resimages of different sizes to train with
 1000 categories
 
 Examples:
