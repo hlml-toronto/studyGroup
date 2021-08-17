@@ -1,2 +1,5 @@
 client_secret.json
 _site/
+.jekyll-cache/
+Gemfile
+Gemfile.lock
