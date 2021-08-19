@@ -19,18 +19,25 @@
                   {% assign postday = postday | plus: 0 %}
                   {% assign nowday = nowday | minus: 2 %}
                   {% capture postfolder %}{{post.folder}}{% endcapture %}
+                  {% assign description_size = {{post.description | size}} %}
+
+                  {% if post.description == '' or description_size == 0%}
+                    {% assign descript = "Topic TBD" %}
+                  {% else %}
+                    {% assign descript = post.description %}
+                  {% endif %}
 
                   {% if postday >= nowday and postyear >= nowyear and isEvent < {{site.data[site.language].numberEvents}} %}
                       {% assign isEvent = isEvent | plus: 1 %}
                       <li>
                           {% if post.folder %}
-                                <a class='eventTitle' href="{{ site.github }}/lessons/{{ post.folder }}/lesson/"><u>{{ post.title }}</u>, {{ post.location }}, {{ post.date | date: "%-d %B %Y"}}, {{post.startTime | date:"%r"}} </a>
+                                <a class='eventTitle' href="{{ site.github }}/lessons/{{ post.folder }}/lesson/"><u>{{ post.title }} - {{ descript }}</u></a> <br />{{ post.date | date: "%-d %B %Y"}}, {{post.startTime | date:"%r"}}, {{ post.location }}
                           {% else %}
-                                <p style="display:inline" class='eventTitle' ><u>{{ post.title }}</u>, {{ post.location }}, {{ post.date | date: "%-d %B %Y"}}, {{post.startTime | date:"%r"}}</p>
+                                <p style="display:inline" class='eventTitle' ><u>{{ post.title }} - {{ descript }}</u></p> <br />{{ post.date | date: "%-d %B %Y"}}, {{post.startTime | date:"%r"}}, {{ post.location }}</p>
                                 <!-- <div class='eventSub'><a href="https://mozillascience.github.io/study-group-orientation/3.4-add-event.html">{{ post.text }}</a></div>
                                 JR : simply a 'how to post', which we won't do -->
                           {% endif %}
-                          {% if pst.onlinemeeting %}
+                          {% if post.onlinemeeting %}
                             <div class='eventSub'><p>{{ post.description }} <a href="{{post.onlinemeeting}}">Meeting link</a></p></div>
                           {% endif %}
                       </li>
