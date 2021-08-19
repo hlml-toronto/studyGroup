@@ -17,7 +17,7 @@ activities:
     icon: fa-code
 
 events: Schedule
-eventsSubheading: Our upcoming and recent events
+eventsSubheading: Our upcoming and recent events. Refer to our <a href="https://docs.google.com/spreadsheets/d/1g5YJG3eM5Nce51zA7Vuy-tRkN3CzBXFOp02jR28Tjas/edit#gid=363283291" target="_blank">schedule spreadsheet</a> for the latest info.
 eventPlaceholder: Nothing yet! Learn how to propose an event here.
 suggestEvent: Suggest an Event
 leadership: How To Schedule A Meeting
