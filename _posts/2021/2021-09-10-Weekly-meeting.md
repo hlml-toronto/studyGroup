@@ -1,8 +1,8 @@
 ---
-who: 
+who: "Duncan"
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: 
+description: "AlphaFold2  (Part 2 of 2)"
 location: "Discord"
 date: 2021-09-10
 startTime: "11:00"
