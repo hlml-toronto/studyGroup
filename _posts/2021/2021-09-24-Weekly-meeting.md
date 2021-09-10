@@ -1,8 +1,8 @@
 ---
-who: "Jeremy, Matt, Nava"
+who: "Duncan"
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: "UMAP, Diffusion Map, t-SNE"
+description: "AlphaFold2  (Part 3 of 3)"
 location: "Discord"
 date: 2021-09-24
 startTime: "11:00"

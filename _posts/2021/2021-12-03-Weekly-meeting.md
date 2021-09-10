@@ -2,7 +2,7 @@
 who: 
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: 
+description: "Mehta paper"
 location: "Discord"
 date: 2021-12-03
 startTime: "11:00"
