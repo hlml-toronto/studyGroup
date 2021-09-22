@@ -1,8 +1,8 @@
 ---
-who: "Tiantian"
+who: 
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: "Mehta paper"
+description: "Coding session"
 location: "Discord"
 date: 2021-10-01
 startTime: "11:00"

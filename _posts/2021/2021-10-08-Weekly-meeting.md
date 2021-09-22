@@ -1,8 +1,8 @@
 ---
-who: "Jeremy, Matt, Nava"
+who: "Tiantian"
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: "UMAP, Diffusion Map, t-SNE"
+description: "Mehta paper"
 location: "Discord"
 date: 2021-10-08
 startTime: "11:00"
