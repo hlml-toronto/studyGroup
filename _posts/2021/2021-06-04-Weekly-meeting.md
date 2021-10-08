@@ -9,6 +9,6 @@ startTime: "11:00"
 endTime: "12:30"
 onlinemeeting: 
 link: "https://www.pnas.org/content/pnas/116/32/15849.full.pdf"
-extra: "First lunch voucher meeting ($20)"
+extra: "Lunch voucher meeting #1 ($20)"
 lessonFolder: 
 ---

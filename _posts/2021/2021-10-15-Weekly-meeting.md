@@ -1,14 +1,14 @@
 ---
-who: "Jeremy, Matt, Nava"
+who: 
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: "UMAP, Diffusion Map, t-SNE"
+description: "Coding session"
 location: "Discord"
 date: 2021-10-15
 startTime: "11:00"
 endTime: "12:30"
 onlinemeeting: 
 link: 
-extra: "Fifth lunch voucher meeting ($20)"
+extra: 
 lessonFolder: 
 ---

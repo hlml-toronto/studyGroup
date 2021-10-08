@@ -38,4 +38,4 @@ with open(DATA_DIR + os.sep + file + year + '.csv') as file:
             f.write("---\n")
             f.close()
 
-print("Thank you for updating the schedule, Comrade!")
+print("Thank you for updating the schedule!")
