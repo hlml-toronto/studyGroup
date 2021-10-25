@@ -1,40 +1,80 @@
 <!-- Events Grid Section -->
-    <section id="events" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <!-- <h2 class="section-heading">Past events</h2> -->
-                    <h3 class="section-subheading text-muted">
-                        Here are all our previous events. Click on any of them to be taken to their page.
-                    </h3>
-                </div>
-            </div>
-            <div class="col-lg-12">
-              <ul class='events'>
-              {% assign isEvent = 0 %}
-              {% for post in site.posts %}
-                {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
-                {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
-                {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
-                {% capture postday %}{{post.date | date: '%j'}}{% endcapture %}
-                {% assign postday = postday | plus: 0 %}
-                {% assign nowday = nowday | minus: 2 %}
-                {% if postyear < nowyear or postday <= nowday and postyear <= nowyear %}
-                  {% assign isEvent = 1 %}
-                  <li>
-                    {% if post.folder %}
-                        <a class='eventTitle' href="{{ site.github }}/lessons/{{ post.folder }}">{{ post.title }} </a>
-                    {% else %}
-                        <p style="display:inline" class='eventTitle'>{{ post.title }} </p>
-                    {% endif %}
-                    <div class='eventSub'><strong>{{ post.date | date: "%-d %B %Y"}}, {{ post.startTime | date:"%I:%M %p" }}, {{ post.location }}</strong><br>{{ post.description }}</div>
-                  </li>
-                {% endif %}
-              {% endfor %}
-              {% if isEvent == 0 %}
-                <a class='eventTitle' href="{{ site.github.issues_url }}">Nothing yet! Propose an event here.</a>
-              {% endif %}
-              </ul>
-            </div>
-        </div>
-    </section>
+
+<head>
+  <style>
+      #customers {
+          font-family: var(--bs-font-sans-serif);
+          border-collapse: collapse;
+          width: 100%;
+      }
+
+      #past-events-table td, #past-events-table th {
+          border: 1px solid #ddd;
+          padding: 8px;
+      }
+
+      #past-events-table tr:nth-child(even){background-color: #f2f2f2;}
+
+      #past-events-table tr:hover {background-color: #ddd;}
+
+      #past-events-table th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #2c3e50;
+          color: white;
+      }
+  </style>
+</head>
+
+
+<ul class='events'>
+  {% assign isEvent = 0 %}
+  <table id="past-events-table">
+    <colgroup>
+      <col span="1" style="width: 20%;">
+      <col span="1" style="width: 80%;">
+    </colgroup>
+    <caption style="caption-side:top; text-align: center; padding: 25px; color:#95a5a6; font-family:Droid Serif,Helvetica Neue,Helvetica,Arial,sans-serif">
+      <i>Here are all our previous events. <br>Click on any of them to be taken to their page.</i>
+    </caption>
+    <tr>
+      <th>Date</th>
+      <th>Description</th>
+    </tr>
+    {% for post in site.posts %}
+      {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
+      {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
+      {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
+      {% capture postday %}{{post.date | date: '%j'}}{% endcapture %}
+      {% capture who %}{{post.who}}{% endcapture %}
+      {% assign postday = postday | plus: 0 %}
+      {% assign nowday = nowday | minus: 2 %}
+      {% if postyear < nowyear or postday <= nowday and postyear <= nowyear %}
+        {% assign isEvent = 1 %}
+        <tr>
+          <td style="text-align:left" border="1"> <strong>{{ post.date | date: "%-d %B %Y"}}</strong><br>{{ post.startTime | date:"%I:%M %p" }}, {{ post.location }}</td>
+          {% if post.folder %}
+            <td style="text-align:left"> <div href="{{ site.github }}/lessons/{{ post.folder }}">{{ post.title }}</div><br>{{ post.description }}</td>
+          {% else %}
+            <td style="text-align:left"> <strong>{{ post.title }}</strong><br>{{ post.description }}</td>
+          {% endif %}
+        </tr>
+      <!-- swap to table style for each entry
+      <li>
+        {% if post.folder %}
+            <a class='eventTitle' href="{{ site.github }}/lessons/{{ post.folder }}">{{ post.title }} </a>
+        {% else %}
+            <p style="display:inline" class='eventTitle'>{{ post.title }} </p>
+        {% endif %}
+        <div class='eventSub'><strong>{{ post.date | date: "%-d %B %Y"}}, {{ post.startTime | date:"%I:%M %p" }}, {{ post.location }}</strong><br>{{ post.description }}</div>
+      </li>
+      -->
+
+    {% endif %}
+  {% endfor %}
+  </table>
+  {% if isEvent == 0 %}
+    <a class='eventTitle' href="{{ site.github.issues_url }}">Nothing yet! Propose an event here.</a>
+  {% endif %}
+</ul>
