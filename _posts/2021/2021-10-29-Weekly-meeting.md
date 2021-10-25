@@ -1,5 +1,5 @@
 ---
-who: "Jeremy, Matt, Nava"
+who: "Matt, Nava"
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
 description: "UMAP, Diffusion Map, t-SNE"

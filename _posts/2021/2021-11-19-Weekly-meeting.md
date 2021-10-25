@@ -1,5 +1,5 @@
 ---
-who: 
+who: "Jeremy"
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
 description: "Mehta paper"
