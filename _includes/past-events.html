@@ -1,8 +1,6 @@
-<!-- Events Grid Section -->
-
 <head>
   <style>
-      #customers {
+      #past-events-table {
           font-family: var(--bs-font-sans-serif);
           border-collapse: collapse;
           width: 100%;
@@ -53,7 +51,7 @@
       {% if postyear < nowyear or postday <= nowday and postyear <= nowyear %}
         {% assign isEvent = 1 %}
         <tr>
-          <td style="text-align:left" border="1"> <strong>{{ post.date | date: "%-d %B %Y"}}</strong><br>{{ post.startTime | date:"%I:%M %p" }}, {{ post.location }}</td>
+          <td style="text-align:left"> <strong>{{ post.date | date: "%-d %B %Y"}}</strong><br>{{ post.startTime | date:"%I:%M %p" }}, {{ post.location }}</td>
           {% if post.folder %}
             <td style="text-align:left"> <div href="{{ site.github }}/lessons/{{ post.folder }}">{{ post.title }}</div><br>{{ post.description }}</td>
           {% else %}
