@@ -46,8 +46,8 @@ However, non-recurrent architectures known as Transformers have recently demonst
 
 We used two approaches: SGD and Adam. 
 
-- For SGD we tried both monotonic and cylic learning rate schedules (to explore different minima).
-- For Adam we specifically used variation with weight-decay (AdamW) and used 
+- For SGD we tried both monotonic and cylic learning rate schedules (to explore different minima). 
+- For Adam we specifically used variation with weight-decay (AdamW).
 
 <img style="float: right;" src="/img/projects/textgen/training.png" alt="Training curves" width="1000px" align="center" style="padding:5px;">
 
