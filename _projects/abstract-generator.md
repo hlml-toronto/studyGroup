@@ -36,7 +36,7 @@ Our github code can be found
 
 The goal is to build a model which can take a stream of tokens, and returns a vocabulary-length vector **w** which represents the conditional distribution of the next word.  
 
-<img style="float: right;" src="/img/projects/textgen/fig_overview.jpg" alt="Model overview" width="1200px" align="center" style="padding:5px;">
+<img style="float: right;" src="/img/projects/textgen/approach.jpg" alt="Model overview" width="1200px" align="center" style="padding:5px;">
 
 In order to recurrently generate text, the model could in principle feed these prediction vectors back in as input. This idea drove the popularity of recurrent architecutres such as LSTMs for text generation and related tasks. 
 
@@ -49,7 +49,7 @@ We used two approaches: SGD and Adam.
 - For SGD we tried both monotonic and cylic learning rate schedules (to explore different minima).
 - For Adam we specifically used variation with weight-decay (AdamW) and used 
 
-<img style="float: right;" src="/img/projects/textgen/fig_training.png" alt="Training curves" width="1000px" align="center" style="padding:5px;">
+<img style="float: right;" src="/img/projects/textgen/training.png" alt="Training curves" width="1000px" align="center" style="padding:5px;">
 
 Both schemes trained within a few hours on a single desktop GPU (~3 minutes per epoch). 
 Note that AdamW trains quickly, but also overfits quickly as indicated by the diverging validation loss. 
@@ -64,7 +64,7 @@ A naive approach to text generation is "greedy decoding" - just keep selecting t
 A more flexible approach is to contruct a boltzmann distribution from the weights **w**, and sample from that (note that this distribution is what the transformer is attempting to fit during training). 
 We now have an explicit probability vector **p** for the next word distribution. 
 
-<img style="float: right;" src="/img/projects/textgen/fig_generation.jpg" alt="Output probabilities" width="1200px" align="center" style="padding:5px;">
+<img style="float: right;" src="/img/projects/textgen/generation.jpg" alt="Output probabilities" width="1200px" align="center" style="padding:5px;">
 
 Note that this introduces a hyperparameter, $$ \beta B $$, which is sometimes called the inverse-temperature parameter. Why? 
 As beta -> 0 everything "melts", with **p** limiting to a uniform distribution over the vocabulary.
