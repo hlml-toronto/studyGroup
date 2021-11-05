@@ -2,7 +2,7 @@
 who: 
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: 
+description: "Time series data exploration session"
 location: "Discord"
 date: 2021-12-10
 startTime: "11:00"

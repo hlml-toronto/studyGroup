@@ -2,7 +2,7 @@
 who: "Chad Gu"
 title: "Working with data @Unity (2pm)"
 invitedSpeaker: "TRUE"
-description: 
+description: "Chat with Chad Gu"
 location: "Zoom"
 date: 2021-08-06
 startTime: "14:00"

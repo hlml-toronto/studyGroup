@@ -1,8 +1,8 @@
 ---
-who: 
+who: "Jeremy, Fang"
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: 
+description: "Databases and SQL"
 location: "Discord"
 date: 2021-11-26
 startTime: "11:00"
