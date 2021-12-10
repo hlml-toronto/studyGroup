@@ -1,8 +1,8 @@
 ---
-who: 
+who: "Matt"
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
-description: 
+description: "Mehta paper"
 location: "Discord"
 date: 2021-12-17
 startTime: "11:00"

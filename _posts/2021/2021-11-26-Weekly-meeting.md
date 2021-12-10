@@ -1,5 +1,5 @@
 ---
-who: "Jeremy, Fang"
+who: "Jeremy"
 title: "Weekly meeting"
 invitedSpeaker: "FALSE"
 description: "Databases and SQL"
