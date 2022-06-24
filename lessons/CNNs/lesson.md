@@ -7,7 +7,7 @@ visible: True
 ## CNNs
 
  - **Authors**: Duncan Kirby
- - **Research field**: 
+ - **Research field**:
  - **Lesson Topic**: Image classification with CNNs
 
 ### The paper that started it all
@@ -16,7 +16,7 @@ visible: True
 
 ### The problem: ImageNet large-scale visual recognition challenge
 
-&gt; 1.2 million high-resimages of different sizes to train with
+&gt; 1.2 million high-res images of different sizes to train with
 1000 categories
 
 Examples:
@@ -29,5 +29,3 @@ Original presentation can be found here:
 ```html
 <a href="{{ site.github }}/lessons/CNNs/CNNs.pdf"><u>link</u></a>
 ```
-
-
